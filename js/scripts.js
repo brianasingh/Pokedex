@@ -18,11 +18,10 @@ pokemonList = [{
 
 ];
 
-//going to comment out code below for 1.2 task submission
 
-/* for (let i=0; i < pokemonList.length; i++)
+for (let i=0; i < pokemonList.length; i++)
   if(pokemonList[i].height < 7 && pokemonList[i].height > 4) {
-    document.write(pokemonList[i].name + "Is on the smaller side.")
+    document.write(pokemonList[i].name + ": is on the smaller side.")
   } else {
-    document.write(pokemonList[i].name + "Wow, that's big!")
-  };*/
+    document.write(pokemonList[i].name + ": wow, that's big!")
+  };
